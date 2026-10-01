@@ -1,0 +1,40 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n,ev=0,od=0,po=0,ne=0;
+    cin>>n;
+    long long arr[n];
+
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]%2==0)
+        {
+            ev++;
+        }
+        else
+        {
+            od++;
+        }
+
+
+        if(arr[i]>0)
+        {
+            po++;
+        }
+        else if(arr[i]<0)
+            ne++;
+    }
+
+    cout<<"Even: "<<ev<<endl;
+    cout<<"Odd: "<<od<<endl;
+    cout<<"Positive: "<<po<<endl;
+    cout<<"Negative: "<<ne<<endl;
+
+    return 0;
+}
