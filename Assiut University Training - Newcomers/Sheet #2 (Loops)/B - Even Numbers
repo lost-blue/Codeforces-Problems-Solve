@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x,c=0;
+    cin>>x;
+
+    for(int i=1;i<=x;i++)
+    {
+        if(i%2==0)
+        {
+            c++;
+            cout<<i<<endl;
+        }
+
+    }
+
+    if(c==0)
+        cout<<"-1"<<endl;
+
+    return 0;
+}
