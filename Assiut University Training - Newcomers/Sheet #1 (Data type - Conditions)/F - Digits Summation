@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    long long int n,m;
+    cin>>n>>m;
+    long long int z = n%10;
+    long long int y = m%10;
+
+    long long x = z+y;
+
+    cout<<x<<endl;
+
+    return 0;
+}
