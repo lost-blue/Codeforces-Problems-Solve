@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char a1[10000],a2[100000];
+    char b1[10000],b2[100000];
+
+    cin>>a1>>a2;
+    cin>>b1>>b2;
+
+    if(strcmp(a2,b2)==0)
+    {
+        cout<<"ARE Brothers"<<endl;
+    }
+    else
+    {
+        cout<<"NOT"<<endl;
+    }
+
+    return 0;
+}
