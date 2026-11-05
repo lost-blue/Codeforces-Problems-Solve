@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ip;
+    cin>>ip;
+
+    if(ip>=65 && ip<=90)
+    {
+        printf("%c\n", ip+32);
+    }
+    else if(ip>=97 && ip<=122)
+    {
+        printf("%c\n", ip-32);
+    }
+
+    return 0;
+}
