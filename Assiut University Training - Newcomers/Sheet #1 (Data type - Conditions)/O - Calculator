@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char s;
+    int a,b;
+
+    cin>>a>>s>>b;
+
+    switch(s)
+        {
+        case '+':
+            cout<<a+b<<endl;
+            break;
+        case '-':
+            cout<<a-b<<endl;
+            break;
+        case '*':
+            cout<<a*b<<endl;
+            break;
+        case '/':
+            cout<<a/b<<endl;
+            break;
+        default:
+            cout<<"Wrong Sign"<<endl;
+            break;
+        }
+
+    return 0;
+}
