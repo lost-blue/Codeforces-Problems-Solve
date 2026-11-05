@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int x;
+    cin>>x;
+
+    while(x!=0)
+    {
+        int a=x/1000;
+        if(a%2==0)
+        {
+            cout<<"EVEN"<<endl;
+            break;
+        }
+        else
+        {
+            cout<<"ODD"<<endl;
+            break;
+        }
+    }
+
+    return 0;
+}
