@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    char ip;
+    cin>>ip;
+
+    if(ip>=48 && ip<=57)
+    {
+        cout<<"IS DIGIT"<<endl;
+    }
+    else
+    {
+        cout<<"ALPHA"<<endl;
+
+        if(ip>=65 && ip<=90)
+        {
+            cout<<"IS CAPITAL"<<endl;
+        }
+        else if(ip>=97 && ip<=122)
+        {
+            cout<<"IS SMALL"<<endl;
+        }
+    }
+
+    return 0;
+}
